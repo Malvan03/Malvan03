@@ -3,7 +3,8 @@
 <!-- =============================== -->
 
 <p align="center">
-<img src="./assets/crow.svg" alt="Cuervo volando de noche" width="800"/>
+<img src="https://media.giphy.com/media/gEG1j8eBvHVYs/giphy.gif" alt="Cuervo" height="170"/>
+<img src="https://media.giphy.com/media/cJ31wTccSkEEq5U9Wd/giphy.gif" alt="Cuervo volando" height="170"/>
 </p>
 
 <h1 align="center">Mauro Alvan <span style="color:#00C2FF;font-weight:bold;">|</span> <em>Polar</em></h1>
