@@ -3,7 +3,7 @@
 <!-- =============================== -->
 
 <p align="center">
-<img src="https://camo.githubusercontent.com/e070eb8cf570d0def3817e01abd2b70abd7d0e03e3dafba0b83eee38180a0d79/68747470733a2f2f6f7268756e2e6465762f696d672f63726f772e706e67" alt="Crow Banner" height="160"/>
+<img src="./assets/crow.svg" alt="Cuervo volando de noche" width="800"/>
 </p>
 
 <h1 align="center">Mauro Alvan <span style="color:#00C2FF;font-weight:bold;">|</span> <em>Polar</em></h1>
