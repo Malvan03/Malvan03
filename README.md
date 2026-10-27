@@ -25,8 +25,14 @@
 
 ---
 
-> **🧭 Estudiante de Ingeniería de Sistemas e Informática en la UTP (8.º ciclo), Lima, Perú.**
-> Me formo en bases de datos, análisis y visualización de datos. Busco una práctica preprofesional en datos o sistemas de información, en el sector financiero o tecnológico.
+<div align="center">
+<img src="https://media.giphy.com/media/gwXErBQAVAp4Q/giphy.gif" alt="Killua" width="150" align="right">
+<blockquote>
+<b>🧭 Estudiante de Ingeniería de Sistemas e Informática en la UTP (8.º ciclo), Lima, Perú.</b><br/>
+Me formo en bases de datos, análisis y visualización de datos.<br/>
+Busco una práctica preprofesional en datos o sistemas de información, en el sector financiero o tecnológico.
+</blockquote>
+</div>
 
 ---
 
