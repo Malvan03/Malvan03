@@ -4,7 +4,6 @@
 
 <p align="center">
 <img src="https://media.giphy.com/media/gEG1j8eBvHVYs/giphy.gif" alt="Cuervo" height="150"/>
-<img src="./assets/polar-hunter.svg" alt="POLAR (Hunter style)" height="150"/>
 <img src="https://media.giphy.com/media/cJ31wTccSkEEq5U9Wd/giphy.gif" alt="Cuervo volando" height="150"/>
 </p>
 
