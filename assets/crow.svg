@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 220" width="800" height="220" role="img" aria-label="Cuervo volando de noche">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#020024"/>
+      <stop offset="1" stop-color="#0b2a4a"/>
+    </linearGradient>
+    <radialGradient id="moon" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#e8fbff"/>
+      <stop offset="1" stop-color="#7fdcff"/>
+    </radialGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="220" rx="14" fill="url(#sky)"/>
+
+  <!-- estrellas -->
+  <g fill="#bff3ff">
+    <circle cx="60" cy="40" r="1.6"><animate attributeName="opacity" values="1;0.2;1" dur="2.4s" repeatCount="indefinite"/></circle>
+    <circle cx="140" cy="150" r="1.2"><animate attributeName="opacity" values="0.3;1;0.3" dur="3s" repeatCount="indefinite"/></circle>
+    <circle cx="220" cy="30" r="1.8"><animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/></circle>
+    <circle cx="300" cy="180" r="1.3"><animate attributeName="opacity" values="0.4;1;0.4" dur="2.8s" repeatCount="indefinite"/></circle>
+    <circle cx="520" cy="35" r="1.5"><animate attributeName="opacity" values="1;0.2;1" dur="3.2s" repeatCount="indefinite"/></circle>
+    <circle cx="600" cy="170" r="1.7"><animate attributeName="opacity" values="0.3;1;0.3" dur="2.2s" repeatCount="indefinite"/></circle>
+    <circle cx="740" cy="120" r="1.2"><animate attributeName="opacity" values="1;0.4;1" dur="2.6s" repeatCount="indefinite"/></circle>
+    <circle cx="90" cy="100" r="1.1"><animate attributeName="opacity" values="0.5;1;0.5" dur="3.4s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <!-- luna -->
+  <circle cx="650" cy="70" r="46" fill="#00C2FF" opacity="0.35" filter="url(#glow)"/>
+  <circle cx="650" cy="70" r="34" fill="url(#moon)"/>
+  <circle cx="640" cy="62" r="6" fill="#bdeaf7" opacity="0.7"/>
+  <circle cx="662" cy="82" r="4" fill="#bdeaf7" opacity="0.7"/>
+
+  <!-- cuervo -->
+  <g transform="translate(0,0)">
+    <animateTransform attributeName="transform" type="translate" values="0,0;0,-8;0,0" dur="1s" repeatCount="indefinite"/>
+
+    <!-- ala lejana -->
+    <path fill="#050a18" opacity="0.85">
+      <animate attributeName="d" dur="1s" repeatCount="indefinite"
+        values="M405,100 Q372,48 330,36 Q362,84 392,112 Z;
+                M405,100 Q350,114 328,164 Q372,146 392,112 Z;
+                M405,100 Q372,48 330,36 Q362,84 392,112 Z"/>
+    </path>
+
+    <!-- cola -->
+    <polygon points="358,108 308,98 312,124 358,118" fill="#050a18"/>
+    <!-- cuerpo -->
+    <ellipse cx="402" cy="112" rx="46" ry="18" fill="#0a1020" stroke="#00C2FF" stroke-opacity="0.35" stroke-width="1"/>
+    <!-- cabeza -->
+    <circle cx="450" cy="104" r="14" fill="#0a1020" stroke="#00C2FF" stroke-opacity="0.35" stroke-width="1"/>
+    <!-- pico -->
+    <polygon points="461,99 486,106 461,111" fill="#16253f"/>
+    <!-- ojo -->
+    <circle cx="454" cy="102" r="2.4" fill="#00C2FF"/>
+    <circle cx="454" cy="102" r="5" fill="#00C2FF" opacity="0.25"/>
+    <!-- patas -->
+    <path d="M395,128 L388,140 M410,128 L412,140" stroke="#050a18" stroke-width="2.5" stroke-linecap="round"/>
+
+    <!-- ala cercana -->
+    <path fill="#0a1020" stroke="#00C2FF" stroke-opacity="0.4" stroke-width="1">
+      <animate attributeName="d" dur="1s" repeatCount="indefinite"
+        values="M400,102 Q330,40 292,34 Q348,76 384,114 Z;
+                M400,102 Q330,112 290,174 Q352,158 384,114 Z;
+                M400,102 Q330,40 292,34 Q348,76 384,114 Z"/>
+    </path>
+  </g>
+
+  <!-- línea de luz -->
+  <rect x="0" y="216" width="800" height="4" fill="#00C2FF" opacity="0.6"/>
+</svg>
