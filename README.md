@@ -3,8 +3,9 @@
 <!-- =============================== -->
 
 <p align="center">
-<img src="https://media.giphy.com/media/gEG1j8eBvHVYs/giphy.gif" alt="Cuervo" height="170"/>
-<img src="https://media.giphy.com/media/cJ31wTccSkEEq5U9Wd/giphy.gif" alt="Cuervo volando" height="170"/>
+<img src="https://media.giphy.com/media/gEG1j8eBvHVYs/giphy.gif" alt="Cuervo" height="150"/>
+<img src="./assets/polar-hunter.svg" alt="POLAR (Hunter style)" height="150"/>
+<img src="https://media.giphy.com/media/cJ31wTccSkEEq5U9Wd/giphy.gif" alt="Cuervo volando" height="150"/>
 </p>
 
 <h1 align="center">Mauro Alvan <span style="color:#00C2FF;font-weight:bold;">|</span> <em>Polar</em></h1>
@@ -16,6 +17,10 @@
 <p align="center">
 <a href="https://www.linkedin.com/in/malvan/"><img src="https://img.shields.io/badge/LinkedIn-0077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
 <a href="mailto:malvan.d.cruz@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836.svg?&style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/></a>
+</p>
+
+<p align="center">
+<a href="#-sobre-mí">Sobre mí</a> · <a href="#-stack-y-herramientas">Stack</a> · <a href="#-proyectos">Proyectos</a> · <a href="#-certificaciones-y-cursos">Certificaciones</a> · <a href="#-actividad">Actividad</a>
 </p>
 
 ---
